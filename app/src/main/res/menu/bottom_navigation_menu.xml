@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/map"
+        android:icon="@drawable/ic_location_on"
+        android:title="지도에서 찾기"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/list"
+        android:icon="@drawable/ic_list"
+        android:title="거리순으로 찾기"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/information"
+        android:icon="@drawable/ic_info"
+        android:title="정보"
+        app:showAsAction="always" />
+</menu>

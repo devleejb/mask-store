@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dis_100m"
+        android:title="100m" />
+    <item
+        android:id="@+id/dis_500m"
+        android:title="500m" />
+    <item
+        android:id="@+id/dis_1km"
+        android:title="1km" />
+    <item
+        android:id="@+id/dis_3km"
+        android:title="3km" />
+    <item
+        android:id="@+id/dis_5km"
+        android:title="5km" />
+
+</menu>

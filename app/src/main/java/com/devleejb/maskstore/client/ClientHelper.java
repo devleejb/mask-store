@@ -20,8 +20,9 @@ public class ClientHelper {
             public List<Store> call() throws Exception {
                 ResponseModel<List<Store>> responseModel = responseModelCall.execute().body();
 
-
-                Log.d("Count", "" + responseModel.getCount());
+                if (responseModel == null) {
+                    return null;
+                }
 
                 return responseModel.getStores();
             }

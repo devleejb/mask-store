@@ -1,7 +1,5 @@
 package com.devleejb.maskstore.client;
 
-import java.util.List;
-
 public class ResponseModel<T> {
     private int count;
 

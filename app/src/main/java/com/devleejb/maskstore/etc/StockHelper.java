@@ -1,23 +1,24 @@
 package com.devleejb.maskstore.etc;
 
 import android.graphics.Color;
+import android.location.Location;
 
 public class StockHelper {
     public static int stockToColor(String remain_stat) {
         if (remain_stat == null) {
-            return Color.GRAY;
+            return Color.parseColor("#707070");
         }
 
         switch (remain_stat) {
             case "plenty":
-                return Color.GREEN;
+                return Color.parseColor("#00a300");
             case "some":
-                return Color.YELLOW;
+                return Color.parseColor("#ffc40d");
             case "few":
-                return Color.RED;
+                return Color.parseColor("#F8BBD0");
             case "empty":
             case "break":
-                return Color.GRAY;
+                return Color.parseColor("#707070");
             default:
                 return 0;
         }
@@ -67,5 +68,9 @@ public class StockHelper {
         } else {
             return time;
         }
+    }
+
+    public static int getDistance(Location src, Location dest) {
+        return (int) src.distanceTo(dest);
     }
 }
