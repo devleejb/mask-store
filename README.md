@@ -16,6 +16,8 @@ COVID-19의 확산으로 부족해진 마스크를 보급하는 공적 마스크
 
 코로나19 의료진과 자원봉사자 여러분의 노고에 감사를 드립니다.
 
+[다운로드 링크](https://m.onestore.co.kr/mobilepoc/apps/appsDetail.omp?prodId=0000746936)
+
 ## Screenshot
 
 ![banner](./images/banner-2.jpg)
